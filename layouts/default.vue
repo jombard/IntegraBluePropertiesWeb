@@ -73,6 +73,10 @@ a {
   font-family: 'Montserrat';
 }
 
+p {
+  margin-bottom: 1em;
+}
+
 .main-bg {
   position: absolute;
   background: url('~assets/images/mews.jpg');
@@ -121,7 +125,7 @@ header {
   animation: 1s ease-out 0s 1 slideInFromRight;
 }
 
-.main-content {
+.main-headline {
   padding: 8em 4em 5em 3em;
   position: relative;
 }
@@ -132,7 +136,7 @@ h1 {
   color: #006298;
 }
 
-.main-content p {
+.main-headline p {
   font-size: 1.2em;
   line-height: 1.5em;
   padding-left: 20%;
@@ -154,12 +158,18 @@ h1 {
   display: flex;
   position: relative;
   margin-bottom: 3em;
+  margin-left: 2em;
 
   .menu-image {
     background-image: url('~assets/images/terraced.jpg');
   }
 
   .block {
+    position: absolute;
+    background: #004368;
+    width: 2em;
+    height: 2em;
+
     &.one {
       right: 2em;
     }
@@ -170,12 +180,17 @@ h1 {
   }
 }
 
+.primary-text {
+  margin: 2em 12em;
+}
+
 .cta {
   color: #98c9e4;
   align-self: center;
   position: relative;
   margin: 3em auto;
   white-space: nowrap;
+  z-index: 10;
 
   &:before {
     content: '';
@@ -199,14 +214,9 @@ h1 {
   }
 }
 
-.block {
-  position: absolute;
-  background: #004368;
-  width: 2em;
-  height: 2em;
-}
-
 .menu-image {
+  margin-top: -2em;
+  margin-left: -2em;
   width: 8em;
   height: 8em;
   background-size: cover;
@@ -244,7 +254,7 @@ h1 {
     height: 12em;
   }
 
-  .main-content {
+  .main-headline {
     padding: 8em 4em 5em 5em;
 
     p {
@@ -261,6 +271,11 @@ h1 {
 @media (min-width: 1200px) {
   body {
     font-size: 22px;
+  }
+
+  .menu-image {
+    width: 15em;
+    height: 15em;
   }
 }
 </style>
