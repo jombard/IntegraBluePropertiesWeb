@@ -2,7 +2,7 @@
   <div>
     <div class="main-bg slide-in-from-right"></div>
 
-    <div class="main-content slide-in-from-left">
+    <div class="main-headline slide-in-from-left">
       <h1>Helping <strong>Solve</strong> Property Problems</h1>
       <p>We offer an array of suitable solutions to property owners</p>
     </div>
@@ -16,6 +16,25 @@
 
       <div class="block one"></div>
       <div class="block two"></div>
+    </div>
+
+    <div class="primary-text">
+      <h2 class="text-blue">Lorem ipsum dolor</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis non
+        nostrum maxime earum qui porro facere ab architecto odit eveniet modi
+        debitis iure quas illo, commodi aperiam nesciunt! Ducimus, illo?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis non
+        nostrum maxime earum qui porro facere ab architecto odit eveniet modi
+        debitis iure quas illo, commodi aperiam nesciunt! Ducimus, illo?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis non
+        nostrum maxime earum qui porro facere ab architecto odit eveniet modi
+        debitis iure quas illo, commodi aperiam nesciunt! Ducimus, illo?
+      </p>
     </div>
   </div>
 </template>
