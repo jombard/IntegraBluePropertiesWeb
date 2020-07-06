@@ -1,11 +1,17 @@
 /*
-** TailwindCSS Configuration File
-**
-** Docs: https://tailwindcss.com/docs/configuration
-** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
-*/
+ ** TailwindCSS Configuration File
+ **
+ ** Docs: https://tailwindcss.com/docs/configuration
+ ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
+ */
 module.exports = {
-  theme: {},
+  theme: {
+    colors: {
+      blue: '#006298',
+      white: '#f1ede2',
+      sky: '#98c9e4',
+    },
+  },
   variants: {},
   plugins: [],
   purge: {
@@ -16,7 +22,7 @@ module.exports = {
       'layouts/**/*.vue',
       'pages/**/*.vue',
       'plugins/**/*.js',
-      'nuxt.config.js'
-    ]
-  }
+      'nuxt.config.js',
+    ],
+  },
 }
