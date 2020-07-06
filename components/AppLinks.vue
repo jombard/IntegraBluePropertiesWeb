@@ -18,4 +18,8 @@ export default {}
     line-height: 3.5rem;
   }
 }
+
+.nuxt-link-exact-active {
+  border-bottom: 3px solid #006298;
+}
 </style>
