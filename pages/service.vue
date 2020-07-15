@@ -9,14 +9,15 @@
 
     <div class="section-one slide-in-from-left">
       <div class="menu-image"></div>
+      <div class="p-10">
+        <ul class="mb-10">
+          <li v-for="(service, i) in services" :key="i" class="mb-5 text-white">
+            {{ service }}
+          </li>
+        </ul>
 
-      <ul class="p-10">
-        <li v-for="(service, i) in services" :key="i" class="mb-5 text-white">
-          {{ service }}
-        </li>
-      </ul>
-
-      <nuxt-link to="/contact" class="cta">We can help today</nuxt-link>
+        <nuxt-link to="/contact" class="cta">See how we can help</nuxt-link>
+      </div>
     </div>
   </div>
 </template>
