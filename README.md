@@ -15,6 +15,11 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# deploy to github pages (post generate)
+$ npm run deploy
 ```
+
+https://jombard.github.io/IntegraBluePropertiesWeb/
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
