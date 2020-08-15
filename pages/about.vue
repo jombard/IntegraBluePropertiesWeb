@@ -4,7 +4,9 @@
 
     <div class="main-headline slide-in-from-left">
       <h1>About IntegraBlue Properties</h1>
-      <p>When core values align</p>
+      <div class="sub-header">
+        <p>When core values align</p>
+      </div>
     </div>
 
     <div class="section-one slide-in-from-left">

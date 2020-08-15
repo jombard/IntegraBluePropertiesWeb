@@ -4,7 +4,9 @@
 
     <TheSidebar />
 
-    <Nuxt />
+    <div class="bg-white" style="margin-bottom: 300px;">
+      <Nuxt />
+    </div>
 
     <TheFooter />
   </div>
@@ -82,7 +84,7 @@ p {
   background: url('~assets/images/mews.jpg');
   background-position: 40% 0;
   width: 40%;
-  height: 900px;
+  height: 800px;
   z-index: -1;
   right: 0;
   opacity: 0.6;
@@ -128,6 +130,26 @@ header {
 .main-headline {
   padding: 8em 4em 5em 3em;
   position: relative;
+
+  .sub-header {
+    margin-left: 20%;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      right: 100%;
+      height: 100%;
+      background: #f1ede2;
+      margin-right: 3rem;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.5em;
+    }
+  }
 }
 
 h1 {
@@ -136,28 +158,11 @@ h1 {
   color: #006298;
 }
 
-.main-headline p {
-  font-size: 1.2em;
-  line-height: 1.5em;
-  padding-left: 20%;
-
-  &:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    height: 2.5em;
-    width: 20%;
-    background: #f1ede2;
-    margin-top: 0.3em;
-  }
-}
-
 .section-one {
   width: 85%;
   background-color: #006298;
   display: flex;
   position: relative;
-  margin-bottom: 3em;
   margin-left: 2em;
 
   .menu-image {
@@ -180,37 +185,25 @@ h1 {
   }
 }
 
-.primary-text {
-  margin: 2em 12em;
-}
-
 .cta {
   color: #98c9e4;
   align-self: center;
   position: relative;
-  margin: 3em auto;
   white-space: nowrap;
   z-index: 10;
+  border: 1px solid #98c9e4;
+  transition: 1s;
+  padding: 1rem;
+  display: inline-block;
 
-  &:before {
-    content: '';
-    position: absolute;
-    width: 80%;
-    height: 3em;
-    left: -1em;
-    top: -1em;
-    border: 1px solid #98c9e4;
-    transition: 1s;
-  }
-
-  &:hover:before,
-  &:focus:before {
-    left: -0.5em;
-    width: 120%;
-    height: 2.5em;
-    top: -0.5em;
+  &:hover,
+  &:focus {
     background-color: #004368;
     opacity: 0.8;
+  }
+
+  &.primary {
+    background-color: #004368;
   }
 }
 
@@ -257,13 +250,9 @@ h1 {
   .main-headline {
     padding: 8em 4em 5em 5em;
 
-    p {
-      width: 80%;
-      padding-left: 15%;
-
-      &:before {
-        width: 18%;
-      }
+    .sub-header {
+      width: 40%;
+      margin-left: 15%;
     }
   }
 }

@@ -3,21 +3,24 @@
     <div class="main-bg slide-in-from-right"></div>
 
     <div class="main-headline slide-in-from-left">
-      <h1>Helping <strong>Solve</strong> Property Problems</h1>
-      <p>We offer an array of suitable solutions to property owners</p>
+      <h1 class="font-bold mb-5">Helping Solve Property Problems</h1>
+      <div class="sub-header">
+        <p>We offer an array of suitable solutions to property owners</p>
+        <nuxt-link class="cta primary" to="/">Our Services</nuxt-link>
+      </div>
     </div>
 
     <div class="section-one slide-in-from-left">
       <div class="menu-image"></div>
 
-      <section class="text-white body-font">
-        <div class="container px-5 py-24 mx-auto">
+      <section class="text-white body-font slide-in-from-right">
+        <div class="container p-24 mx-auto">
           <h2
-            class="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20"
+            class="sm:text-3xl text-2xl font-medium title-font text-white mb-10"
           >
-            Raw Denim Heirloom Man Braid <br class="hidden sm:block" />Selfies
-            Wayfarers
+            Are you a landlord looking for relief from a troublesome property?
           </h2>
+          <nuxt-link to="/contact" class="cta">Contact Us Today</nuxt-link>
         </div>
       </section>
 
@@ -25,130 +28,24 @@
       <div class="block two"></div>
     </div>
 
-    <div class="primary-text">
+    <div class="container py-24 mx-auto">
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-        <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex">
-          <div
-            class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-6 h-6"
-              viewBox="0 0 24 24"
-            >
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-          </div>
+        <div
+          v-for="(w, i) in workwith"
+          :key="i"
+          class="p-4 md:w-1/3 md:mb-0 mb-6"
+        >
           <div class="flex-grow pl-6">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-              Landlords
+            <ImageResponsive :image-url="w.img" :alt="w.title" class="mb-3" />
+            <h2 class="text-2xl mb-3">
+              {{ w.title }}
             </h2>
-            <p class="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-              mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge
-              tilde.
+            <p class="leading-7 text-lg">
+              {{ w.text }}
             </p>
             <nuxt-link
-              class="mt-3 text-indigo-500 inline-flex items-center"
-              to="/landlords"
-              >Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </nuxt-link>
-          </div>
-        </div>
-        <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex">
-          <div
-            class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-6 h-6"
-              viewBox="0 0 24 24"
-            >
-              <circle cx="6" cy="6" r="3"></circle>
-              <circle cx="6" cy="18" r="3"></circle>
-              <path
-                d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"
-              ></path>
-            </svg>
-          </div>
-          <div class="flex-grow pl-6">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-              Investors
-            </h2>
-            <p class="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-              mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge
-              tilde.
-            </p>
-            <nuxt-link
-              class="mt-3 text-indigo-500 inline-flex items-center"
-              to="/investors"
-              >Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </nuxt-link>
-          </div>
-        </div>
-        <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex">
-          <div
-            class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 flex-shrink-0"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-6 h-6"
-              viewBox="0 0 24 24"
-            >
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
-          </div>
-          <div class="flex-grow pl-6">
-            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">
-              Partners
-            </h2>
-            <p class="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-              mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge
-              tilde.
-            </p>
-            <nuxt-link
-              class="mt-3 text-indigo-500 inline-flex items-center"
-              to="/partners"
+              class="mt-3 text-blue inline-flex items-center"
+              :to="w.link"
               >Learn More
               <svg
                 fill="none"
@@ -170,5 +67,38 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      workwith: [
+        {
+          title: 'Landlords',
+          text:
+            'Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.',
+          link: '/landlords',
+          img: 'landlords.jpg',
+        },
+        {
+          title: 'Investors',
+          text:
+            'Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.',
+          link: '/investors',
+          img: 'investors.jpg',
+        },
+        {
+          title: 'Partners',
+          text:
+            'Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.',
+          link: '/partners',
+          img: 'partners.jpg',
+        },
+      ],
+    }
+  },
+  methods: {
+    getImg(src) {
+      return require(`../assets/images/${src}`)
+    },
+  },
+}
 </script>
