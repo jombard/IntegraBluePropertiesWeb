@@ -85,7 +85,6 @@ p {
   background-position: 40% 0;
   width: 40%;
   height: 800px;
-  z-index: -1;
   right: 0;
   opacity: 0.6;
 }
