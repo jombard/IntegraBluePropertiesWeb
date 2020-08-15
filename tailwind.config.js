@@ -6,10 +6,12 @@
  */
 module.exports = {
   theme: {
-    colors: {
-      blue: '#006298',
-      white: '#f1ede2',
-      sky: '#98c9e4',
+    extend: {
+      colors: {
+        blue: '#006298',
+        white: '#f1ede2',
+        sky: '#98c9e4',
+      },
     },
   },
   variants: {},
