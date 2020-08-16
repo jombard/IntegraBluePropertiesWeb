@@ -4,7 +4,7 @@
 
     <TheSidebar />
 
-    <div class="bg-white" style="margin-bottom: 300px;">
+    <div style="margin-bottom: 300px; background-color: white;">
       <Nuxt />
     </div>
 
@@ -89,17 +89,6 @@ p {
   opacity: 0.6;
 }
 
-header {
-  background: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 1em;
-
-  ul {
-    display: none;
-  }
-}
-
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -157,6 +146,25 @@ h1 {
   color: #006298;
 }
 
+a.text-blue {
+  position: relative;
+
+  &:before {
+    content: '';
+    background-color: #006298;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 1s;
+    right: 100%;
+  }
+
+  &:hover:before {
+    right: 0;
+  }
+}
+
 .section-one {
   width: 85%;
   background-color: #006298;
@@ -199,10 +207,6 @@ h1 {
   &:focus {
     background-color: #004368;
     opacity: 0.8;
-  }
-
-  &.primary {
-    background-color: #004368;
   }
 }
 

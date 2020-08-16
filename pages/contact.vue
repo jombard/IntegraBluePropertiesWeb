@@ -14,13 +14,15 @@
 
       <section class="text-gray-700 body-font relative slide-in-from-right">
         <div class="container p-10 mx-auto flex sm:flex-no-wrap flex-wrap">
-          <div class="bg-gray-300 pr-10">
+          <div class="pr-10">
             <div class="bg-white p-6">
               <div class="mb-4">
                 <h2>Email</h2>
                 <a :href="`mailto:${email}`" class="text-blue text-lg">{{
                   email
                 }}</a>
+              </div>
+              <div class="mb-4">
                 <h2>Phone</h2>
                 <a :href="`tel:${phone}`" class="text-blue text-lg">{{
                   phone
@@ -35,9 +37,9 @@
           <div
             class="bg-white flex flex-col md:ml-auto w-full md:p-8 mt-8 md:mt-0"
           >
-            <h2>Feedback</h2>
+            <h2>Get in touch</h2>
             <p class="text-lg">
-              Post-ironic portland shabby chic echo park, banjo fashion axe
+              Send us your query and we will get back to you shortly
             </p>
             <label for="txtName">Name</label>
             <input id="txtName" class="px-4 py-2 mb-4" type="text" />
@@ -54,7 +56,8 @@
               Button
             </button>
             <p class="text-xs text-gray-500 mt-3 text-center">
-              We respect your data
+              Your privacy is important to us, we respect your data and keep it
+              safe
             </p>
           </div>
         </div>

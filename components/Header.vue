@@ -1,13 +1,15 @@
 <template>
   <header>
-    <nuxt-link to="/" class="logo"
-      >Integra<strong>Blue</strong> Properties</nuxt-link
-    >
+    <div class="container mx-auto flex justify-between p-4">
+      <nuxt-link to="/" class="logo"
+        >Integra<strong>Blue</strong> Properties</nuxt-link
+      >
 
-    <nav>
-      <MenuIcon />
-      <AppLinks />
-    </nav>
+      <nav>
+        <MenuIcon />
+        <AppLinks />
+      </nav>
+    </div>
   </header>
 </template>
 
@@ -24,4 +26,12 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+header {
+  background: white;
+
+  ul {
+    display: none;
+  }
+}
+</style>

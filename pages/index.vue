@@ -6,7 +6,7 @@
       <h1 class="font-bold mb-5">Helping Solve Property Problems</h1>
       <div class="sub-header">
         <p>We offer an array of suitable solutions to property owners</p>
-        <nuxt-link class="cta primary" to="/">Our Services</nuxt-link>
+        <nuxt-link class="cta bg-blue" to="/">Our Services</nuxt-link>
       </div>
     </div>
 
@@ -37,8 +37,8 @@
         >
           <div class="flex-grow pl-6">
             <ImageResponsive :image-url="w.img" :alt="w.title" class="mb-3" />
-            <h2 class="text-2xl mb-3">
-              {{ w.title }}
+            <h2 class="text-3xl mb-3 text-blue font-bold">
+              <nuxt-link :to="w.link">{{ w.title }}</nuxt-link>
             </h2>
             <p class="leading-7 text-lg">
               {{ w.text }}
@@ -74,21 +74,21 @@ export default {
         {
           title: 'Landlords',
           text:
-            'Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.',
+            'We can help landlords in a number of ways, but it starts with knowing what the pain points are. Troublesome tenants, mounting expenses, headache agents, we can make it all go away.',
           link: '/landlords',
           img: 'landlords.jpg',
         },
         {
           title: 'Investors',
           text:
-            'Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.',
+            'Property can be a lucrative endeavour. The right property can offer much better returns than even the best bank accounts. We work with investors to help them get the best returns on their capital.',
           link: '/investors',
           img: 'investors.jpg',
         },
         {
           title: 'Partners',
           text:
-            'Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.',
+            'We are always looking to work with like minded individuals and companies. The old adage of two heads are better than one is so true. How can we help you?',
           link: '/partners',
           img: 'partners.jpg',
         },

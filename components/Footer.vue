@@ -1,5 +1,5 @@
 <template>
-  <footer class="fixed bottom-0 w-full">
+  <footer class="fixed bottom-0 w-full bg-gray-900 py-12 text-gray-500">
     <div class="container mx-auto flex justify-between">
       <div class="mb-4">
         <strong>IntegraBlue Properties</strong><br />
@@ -30,9 +30,6 @@ export default {
 
 <style lang="scss">
 footer {
-  padding: 3em;
-  background-color: #006298;
-  color: #98c9e4;
   z-index: -1;
 }
 </style>
