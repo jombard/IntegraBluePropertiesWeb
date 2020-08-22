@@ -67,4 +67,19 @@ export default {
   transform: rotate(-45deg);
   top: 49%;
 }
+
+@media (min-width: 600px) {
+  .menu,
+  .wrapper {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+
+    li a {
+      font-size: 0.9em;
+      padding: 0.3em 0.8em;
+    }
+  }
+}
 </style>

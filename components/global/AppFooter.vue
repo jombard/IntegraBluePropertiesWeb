@@ -13,7 +13,7 @@
         <a href="#">Property Ombudsman</a>
       </div>
       <div class="mb-4">
-        <strong>Socials</strong><br />
+        <strong>Say hello</strong><br />
         <a href="#">Instagram</a><br />
         <a href="#">Facebook</a><br />
         <a href="#">Twitter</a>

@@ -7,13 +7,8 @@
 </template>
 
 <script>
-import AppLinks from '@/components/AppLinks'
-
 export default {
   name: 'SidebarMenu',
-  components: {
-    AppLinks,
-  },
   computed: {
     isMenuOpen() {
       return this.$store.getters['menu/isOpen']

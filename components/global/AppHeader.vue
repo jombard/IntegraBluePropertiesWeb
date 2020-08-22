@@ -14,24 +14,13 @@
 </template>
 
 <script>
-import MenuIcon from '@/components/MenuIcon'
-import AppLinks from '@/components/AppLinks'
-
 export default {
   name: 'TheHeader',
-  components: {
-    MenuIcon,
-    AppLinks,
-  },
 }
 </script>
 
 <style lang="scss">
 header {
   background: white;
-
-  ul {
-    display: none;
-  }
 }
 </style>

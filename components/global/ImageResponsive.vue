@@ -18,10 +18,8 @@ export default {
   },
   computed: {
     imageRequired() {
-      return require(`../assets/images/${this.imageUrl}`)
+      return require(`@/assets/images/${this.imageUrl}`)
     },
   },
 }
 </script>
-
-<style lang="scss" scoped></style>
