@@ -4,7 +4,7 @@
 
     <AppSidebar />
 
-    <div style="margin-bottom: 300px; background-color: white;">
+    <div class="page-wrapper">
       <Nuxt />
     </div>
 
@@ -69,6 +69,12 @@ p {
   margin-bottom: 1em;
 }
 
+.page-wrapper {
+  margin-bottom: 250px;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
 .main-bg {
   position: absolute;
   background: url('~assets/images/mews.jpg');
@@ -130,33 +136,6 @@ a.text-blue {
   }
 }
 
-.section-one {
-  width: 85%;
-  background-color: #006298;
-  display: flex;
-  position: relative;
-  margin-left: 2em;
-
-  .menu-image {
-    background-image: url('~assets/images/terraced.jpg');
-  }
-
-  .block {
-    position: absolute;
-    background: #004368;
-    width: 2em;
-    height: 2em;
-
-    &.one {
-      right: 2em;
-    }
-    &.two {
-      right: 0;
-      top: 2em;
-    }
-  }
-}
-
 .cta {
   color: #98c9e4;
   align-self: center;
@@ -175,14 +154,6 @@ a.text-blue {
   }
 }
 
-.menu-image {
-  margin-top: -2em;
-  margin-left: -2em;
-  width: 8em;
-  height: 8em;
-  background-size: cover;
-}
-
 @media (min-width: 600px) {
   body {
     font-size: 18px;
@@ -193,25 +164,11 @@ a.text-blue {
   body {
     font-size: 20px;
   }
-
-  .section-one {
-    width: 75%;
-  }
-
-  .menu-image {
-    width: 12em;
-    height: 12em;
-  }
 }
 
 @media (min-width: 1200px) {
   body {
     font-size: 22px;
-  }
-
-  .menu-image {
-    width: 15em;
-    height: 15em;
   }
 }
 </style>
