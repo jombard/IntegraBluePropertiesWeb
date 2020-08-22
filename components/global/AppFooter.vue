@@ -7,16 +7,22 @@
         &copy; Copyright 2020
       </div>
       <div class="mb-4">
-        <strong>Registered with</strong><br />
-        <a href="#">ICO</a><br />
-        <a href="#">NRLA</a><br />
-        <a href="#">Property Ombudsman</a>
+        <strong>Services</strong><br />
+        <nuxt-link to="/landords">Landlords</nuxt-link><br />
+        <nuxt-link to="/investors">Investors</nuxt-link><br />
+        <nuxt-link to="/partners">Partners</nuxt-link>
       </div>
       <div class="mb-4">
         <strong>Say hello</strong><br />
         <a href="#">Instagram</a><br />
         <a href="#">Facebook</a><br />
         <a href="#">Twitter</a>
+      </div>
+      <div class="mb-4">
+        <strong>Registered with</strong><br />
+        <a href="#">ICO</a><br />
+        <a href="#">NRLA</a><br />
+        <a href="#">Property Ombudsman</a>
       </div>
     </div>
   </footer>
