@@ -9,33 +9,21 @@
       <nuxt-link class="cta bg-blue" to="/">Our Services</nuxt-link>
     </PageHeader>
 
-    <div class="section-one slide-in-from-left">
-      <div class="menu-image"></div>
-
-      <section class="text-white body-font slide-in-from-right">
-        <div class="container p-24 mx-auto">
-          <h2
-            class="sm:text-3xl text-2xl font-medium title-font text-white mb-10"
-          >
-            Are you a landlord looking for relief from a troublesome property?
-          </h2>
-          <nuxt-link to="/contact" class="cta">Contact Us Today</nuxt-link>
-        </div>
-      </section>
-
-      <div class="block one"></div>
-      <div class="block two"></div>
-    </div>
+    <PrimarySection
+      img-url="terraced.jpg"
+      headline="Are you a landlord looking for relief from a troublesome property?"
+      alt-text=""
+    >
+      <nuxt-link to="/contact" class="cta">Contact Us Today</nuxt-link>
+    </PrimarySection>
 
     <div class="container py-24 mx-auto">
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-        <div
-          v-for="(w, i) in workwith"
-          :key="i"
-          class="p-4 md:w-1/3 md:mb-0 mb-6"
-        >
+        <div v-for="(w, i) in workwith" :key="i" class="md:w-1/3 md:mb-0 mb-6">
           <div class="flex-grow pl-6">
-            <ImageResponsive :image-url="w.img" :alt="w.title" class="mb-3" />
+            <nuxt-link :to="w.link">
+              <ImageResponsive :image-url="w.img" :alt="w.title" class="mb-3" />
+            </nuxt-link>
             <h2 class="text-3xl mb-3 text-blue font-bold">
               <nuxt-link :to="w.link">{{ w.title }}</nuxt-link>
             </h2>
@@ -94,10 +82,11 @@ export default {
       ],
     }
   },
-  methods: {
-    getImg(src) {
-      return require(`../assets/images/${src}`)
-    },
-  },
 }
 </script>
+
+<style lang="scss" scoped>
+.main-bg {
+  background-image: url('~assets/images/portland.jpg');
+}
+</style>

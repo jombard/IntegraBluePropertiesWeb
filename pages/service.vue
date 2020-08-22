@@ -4,18 +4,13 @@
 
     <PageHeader title="Services" subtitle="We help solve property problems" />
 
-    <div class="section-one slide-in-from-left">
-      <div class="menu-image"></div>
-      <div class="p-10">
-        <ul class="mb-10">
-          <li v-for="(service, i) in services" :key="i" class="mb-5 text-white">
-            {{ service }}
-          </li>
-        </ul>
+    <PrimarySection
+      img-url="cottage2.jpg"
+      headline="Our services"
+      :alt-text="services.join(', ')"
+    />
 
-        <nuxt-link to="/contact" class="cta">See how we can help</nuxt-link>
-      </div>
-    </div>
+    <SignUpForm />
   </div>
 </template>
 
@@ -37,9 +32,5 @@ export default {
 <style lang="scss" scoped>
 .main-bg {
   background-image: url('~assets/images/portland.jpg');
-}
-
-.section-one .menu-image {
-  background-image: url('~assets/images/cottage2.jpg');
 }
 </style>

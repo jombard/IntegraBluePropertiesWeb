@@ -4,82 +4,69 @@
 
     <PageHeader title="Contact Us" subtitle="We would love to hear from you" />
 
-    <div class="section-one slide-in-from-left mb-10">
-      <div class="menu-image"></div>
-
-      <section class="text-gray-700 body-font relative slide-in-from-right">
-        <div class="container p-10 mx-auto flex sm:flex-no-wrap flex-wrap">
-          <div
-            class="bg-white flex flex-col md:ml-auto w-full md:p-8 mt-8 md:mt-0"
-          >
-            <h2 class="text-3xl">Get in touch</h2>
-            <p class="text-lg">
-              Please call or email at your convenience
-            </p>
-
-            <div class="mb-4 flex justify-between">
-              <div class="">
-                <h2>Email</h2>
-                <a :href="`mailto:${email}`" class="text-blue text-lg">{{
-                  email
-                }}</a>
-              </div>
-              <div class="">
-                <h2>Phone</h2>
-                <a :href="`tel:${phone}`" class="text-blue text-lg">{{
-                  phone
-                }}</a>
-              </div>
-            </div>
-
-            <div class="mb-4">
-              <p class="text-lg">
-                Alternatively send us your query and we will get back to you
-                shortly
-              </p>
-            </div>
-
-            <div class="mb-4">
-              <label for="txtName">Name</label>
-              <input
-                id="txtName"
-                class="px-4 py-2 w-full focus:outline-none focus:shadow-outline"
-                type="text"
-              />
-            </div>
-            <div class="mb-4">
-              <label for="txtEmail">Email</label>
-              <input
-                id="txtEmail"
-                class="px-4 py-2 w-full focus:outline-none focus:shadow-outline"
-                type="email"
-              />
-            </div>
-            <div class="mb-4">
-              <label for="txtPhone">Phone</label>
-              <input
-                id="txtPhone"
-                class="px-4 py-2 w-full focus:outline-none focus:shadow-outline"
-                type="telephone"
-              />
-            </div>
-            <div class="mb-4">
-              <label for="txtMessage">Message</label>
-              <textarea
-                id="txtMessage"
-                class="h-32 px-4 py-2 mb-4 resize-none w-full focus:outline-none focus:shadow-outline"
-              ></textarea>
-            </div>
-            <button class="text-white bg-blue border-0 py-2 px-6">
-              Send message
-            </button>
-            <p class="text-xs text-gray-500 mt-3 text-center">
-              Your privacy is important to us, we respect your data and keep it
-              safe
-            </p>
-          </div>
+    <PrimarySection
+      img-url="cottage1.jpg"
+      headline="Get in touch"
+      alt-text="Please call or email at your convenience"
+    >
+      <div class="text-white">
+        <div class="mb-4">
+          <h2>Email</h2>
+          <a :href="`mailto:${email}`" class="text-lg">{{ email }}</a>
         </div>
-      </section>
+        <div>
+          <h2>Phone</h2>
+          <a :href="`tel:${phone}`" class="text-lg">{{ phone }}</a>
+        </div>
+      </div>
+    </PrimarySection>
+
+    <div class="py-10 relative">
+      <div class="max-w-2xl mx-auto bg-white p-10">
+        <div class="mb-4">
+          <h2 class="text-3xl">Drop us a note</h2>
+          <p class="text-lg">
+            Send us your query and we will get back to you shortly
+          </p>
+        </div>
+        <div class="mb-4">
+          <label for="txtName">Name</label>
+          <input
+            id="txtName"
+            class="px-4 py-2 w-full focus:outline-none focus:shadow-outline"
+            type="text"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="txtEmail">Email</label>
+          <input
+            id="txtEmail"
+            class="px-4 py-2 w-full focus:outline-none focus:shadow-outline"
+            type="email"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="txtPhone">Phone</label>
+          <input
+            id="txtPhone"
+            class="px-4 py-2 w-full focus:outline-none focus:shadow-outline"
+            type="telephone"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="txtMessage">Message</label>
+          <textarea
+            id="txtMessage"
+            class="h-32 px-4 py-2 mb-4 resize-none w-full focus:outline-none focus:shadow-outline"
+          ></textarea>
+        </div>
+        <button class="text-white bg-blue border-0 py-2 px-6 w-full">
+          Send message
+        </button>
+        <p class="text-xs text-gray-500 mt-3 text-center">
+          Your privacy is important to us, we respect your data and keep it safe
+        </p>
+      </div>
     </div>
   </div>
 </template>
