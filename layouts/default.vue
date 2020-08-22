@@ -1,29 +1,19 @@
 <template>
   <div>
-    <TheHeader />
+    <AppHeader />
 
-    <TheSidebar />
+    <AppSidebar />
 
     <div style="margin-bottom: 300px; background-color: white;">
       <Nuxt />
     </div>
 
-    <TheFooter />
+    <AppFooter />
   </div>
 </template>
 
 <script>
-import TheFooter from '@/components/Footer'
-import TheSidebar from '@/components/Sidebar'
-import TheHeader from '@/components/Header'
-
-export default {
-  components: {
-    TheFooter,
-    TheSidebar,
-    TheHeader,
-  },
-}
+export default {}
 </script>
 
 <style lang="scss">
@@ -115,31 +105,6 @@ p {
   animation: 1s ease-out 0s 1 slideInFromRight;
 }
 
-.main-headline {
-  padding: 8em 4em 5em 3em;
-  position: relative;
-
-  .sub-header {
-    margin-left: 20%;
-    position: relative;
-
-    &:before {
-      content: '';
-      position: absolute;
-      left: -100%;
-      right: 100%;
-      height: 100%;
-      background: #f1ede2;
-      margin-right: 3rem;
-    }
-
-    p {
-      font-size: 1.2em;
-      line-height: 1.5em;
-    }
-  }
-}
-
 h1 {
   font-size: 2.75em;
   line-height: 1.2em;
@@ -222,18 +187,6 @@ a.text-blue {
   body {
     font-size: 18px;
   }
-  .menu,
-  .wrapper {
-    display: none;
-  }
-  nav ul {
-    display: flex;
-
-    li a {
-      font-size: 0.9em;
-      padding: 0.3em 0.8em;
-    }
-  }
 }
 
 @media (min-width: 900px) {
@@ -248,15 +201,6 @@ a.text-blue {
   .menu-image {
     width: 12em;
     height: 12em;
-  }
-
-  .main-headline {
-    padding: 8em 4em 5em 5em;
-
-    .sub-header {
-      width: 40%;
-      margin-left: 15%;
-    }
   }
 }
 

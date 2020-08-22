@@ -2,12 +2,10 @@
   <div>
     <div class="main-bg slide-in-from-right"></div>
 
-    <div class="main-headline slide-in-from-left">
-      <h1>About IntegraBlue Properties</h1>
-      <div class="sub-header">
-        <p>When core values align</p>
-      </div>
-    </div>
+    <PageHeader
+      title="About IntegraBlue Properties"
+      subtitle="When core values align"
+    />
 
     <div class="section-one slide-in-from-left">
       <div class="menu-image"></div>

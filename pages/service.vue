@@ -2,12 +2,7 @@
   <div>
     <div class="main-bg slide-in-from-right"></div>
 
-    <div class="main-headline slide-in-from-left">
-      <h1>Services</h1>
-      <div class="sub-header">
-        <p>We help solve property problems</p>
-      </div>
-    </div>
+    <PageHeader title="Services" subtitle="We help solve property problems" />
 
     <div class="section-one slide-in-from-left">
       <div class="menu-image"></div>

@@ -2,13 +2,12 @@
   <div>
     <div class="main-bg slide-in-from-right"></div>
 
-    <div class="main-headline slide-in-from-left">
-      <h1 class="font-bold mb-5">Helping Solve Property Problems</h1>
-      <div class="sub-header">
-        <p>We offer an array of suitable solutions to property owners</p>
-        <nuxt-link class="cta bg-blue" to="/">Our Services</nuxt-link>
-      </div>
-    </div>
+    <PageHeader
+      title="Helping Solve Property Problems"
+      subtitle="We offer an array of suitable solutions to property owners"
+    >
+      <nuxt-link class="cta bg-blue" to="/">Our Services</nuxt-link>
+    </PageHeader>
 
     <div class="section-one slide-in-from-left">
       <div class="menu-image"></div>

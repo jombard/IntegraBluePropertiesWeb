@@ -1,11 +1,9 @@
 <template>
   <div>
-    <div class="main-headline slide-in-from-left">
-      <h1>Landlords</h1>
-      <div class="sub-header">
-        <p>Are you a landlord looking for solutions? We may be able to help!</p>
-      </div>
-    </div>
+    <PageHeader
+      title="Landlords"
+      subtitle="Are you a landlord looking for solutions? We may be able to help!"
+    />
 
     <div class="slide-in-from-left">
       <section class="text-gray-700 body-font">

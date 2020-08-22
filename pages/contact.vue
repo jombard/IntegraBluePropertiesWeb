@@ -2,12 +2,7 @@
   <div>
     <div class="main-bg slide-in-from-right"></div>
 
-    <div class="main-headline slide-in-from-left">
-      <h1>Contact Us</h1>
-      <div class="sub-header">
-        <p>We would love to hear from you</p>
-      </div>
-    </div>
+    <PageHeader title="Contact Us" subtitle="We would love to hear from you" />
 
     <div class="section-one slide-in-from-left mb-10">
       <div class="menu-image"></div>
