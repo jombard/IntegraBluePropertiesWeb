@@ -6,7 +6,6 @@
       title="Helping Solve Property Problems"
       subtitle="We offer an array of suitable solutions to property owners"
     >
-      <nuxt-link class="cta bg-blue" to="/">Our Services</nuxt-link>
     </PageHeader>
 
     <PrimarySection
@@ -14,7 +13,9 @@
       headline="Are you a landlord looking for relief from a troublesome property?"
       alt-text=""
     >
-      <nuxt-link to="/contact" class="cta">Contact Us Today</nuxt-link>
+      <nuxt-link to="/landlords" class="cta"
+        >Find out how we can help</nuxt-link
+      >
     </PrimarySection>
 
     <div class="container py-24 mx-auto">
