@@ -7,7 +7,7 @@
     <PrimarySection
       img-url="cottage1.jpg"
       headline="Get in touch"
-      alt-text="Please call or email at your convenience"
+      alt-text="Please call or email us today"
     >
       <div class="text-white">
         <div class="mb-4">
