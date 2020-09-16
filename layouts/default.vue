@@ -79,7 +79,7 @@ p {
   position: absolute;
   background: url('~assets/images/mews.jpg');
   background-position: 40% 0;
-  width: 40%;
+  width: 25%;
   height: 800px;
   right: 0;
   opacity: 0.6;

@@ -46,7 +46,7 @@ export default {
 
 @media (min-width: 900px) {
   .sub-header {
-    width: 40%;
+    width: 60%;
     margin-left: 15%;
   }
 }
