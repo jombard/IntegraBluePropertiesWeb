@@ -1,14 +1,14 @@
 <template>
-  <div class="section-one slide-in-from-left mb-10">
+  <div class="section-one slide-in-from-left">
     <ImageResponsive
       v-if="imgUrl"
       :image-url="imgUrl"
       alt="Menu Image"
-      class="menu-image"
+      class="menu-image absolute"
     />
 
     <section class="text-gray-700 relative slide-in-from-right">
-      <div class="container p-10 mx-auto">
+      <div class="container p-10 mx-auto big-left-margin">
         <div class="text-white">
           <h2 class="text-3xl">{{ headline }}</h2>
           <p class="text-lg">
@@ -74,6 +74,10 @@ export default {
   width: 8em;
   height: 8em;
   background-size: cover;
+}
+
+.big-left-margin {
+  margin-left: 20rem;
 }
 
 @media (min-width: 900px) {

@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-6xl mx-auto py-10 relative">
+  <div class="container mx-auto px-4 py-10 relative">
     <div class="bg-white p-10">
       <h2 class="text-wxl mb-5">Register your interest</h2>
 
