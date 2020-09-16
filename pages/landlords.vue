@@ -8,17 +8,26 @@
     />
 
     <PrimarySection
-      img-url="landlords.jpg"
+      img-url="investment-property.jpg"
       headline="Offering solutions for landlords"
       alt-text="Offering the best solutions for a range of issues"
     />
+
+    <ContentSection>
+      <nuxt-content :document="page" />
+    </ContentSection>
 
     <SignUpForm />
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  async asyncData({ $content }) {
+    const page = await $content('landlords').fetch()
+    return { page }
+  },
+}
 </script>
 
 <style lang="scss" scoped>
