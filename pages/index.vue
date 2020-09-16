@@ -18,7 +18,7 @@
       >
     </PrimarySection>
 
-    <div class="container py-24 mx-auto">
+    <div class="container py-24 mx-auto relative">
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
         <div v-for="(w, i) in workwith" :key="i" class="md:w-1/3 md:mb-0 mb-6">
           <div class="flex-grow pl-6">
@@ -64,7 +64,7 @@ export default {
           text:
             'We can help landlords in a number of ways, but it starts with knowing what the pain points are. Troublesome tenants, mounting expenses, headache agents, we can make it all go away.',
           link: '/landlords',
-          img: 'landlords.jpg',
+          img: 'investment-property.jpg',
         },
         {
           title: 'Investors',
