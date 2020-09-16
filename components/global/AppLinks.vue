@@ -1,7 +1,7 @@
 <template>
   <ul>
     <li><nuxt-link to="/">Home</nuxt-link></li>
-    <li><nuxt-link to="/holiday-lets">Holiday Homes</nuxt-link></li>
+    <li><nuxt-link to="/holiday-lets">Holiday Lets</nuxt-link></li>
     <li><nuxt-link to="/landlords">Landlords</nuxt-link></li>
     <li><nuxt-link to="/contact">Contact</nuxt-link></li>
   </ul>
