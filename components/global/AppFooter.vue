@@ -7,22 +7,40 @@
         &copy; Copyright 2020
       </div>
       <div class="mb-4">
-        <strong>Services</strong><br />
-        <nuxt-link to="/landords">Landlords</nuxt-link><br />
-        <nuxt-link to="/investors">Investors</nuxt-link><br />
-        <nuxt-link to="/partners">Partners</nuxt-link>
-      </div>
-      <div class="mb-4">
-        <strong>Say hello</strong><br />
-        <a href="#">Instagram</a><br />
-        <a href="#">Facebook</a><br />
-        <a href="#">Twitter</a>
+        <strong>Socials</strong><br />
+        <a
+          href="https://www.instagram.com/integrablueproperties/"
+          target="_blank"
+          rel="nofollow norefer"
+          >Instagram</a
+        ><br />
+        <a
+          href="https://www.facebook.com/integrablueproperties/"
+          target="_blank"
+          rel="nofollow norefer"
+          >Facebook</a
+        ><br />
+        <a
+          href="https://twitter.com/integrablueprop"
+          target="_blank"
+          rel="nofollow norefer"
+          >Twitter</a
+        >
       </div>
       <div class="mb-4">
         <strong>Registered with</strong><br />
-        <a href="#">ICO</a><br />
-        <a href="#">NRLA</a><br />
-        <a href="#">Property Ombudsman</a>
+        <a href="https://ico.org.uk/" target="_blank" rel="nofollow norefer"
+          >ICO</a
+        ><br />
+        <a
+          href="https://www.nrla.org.uk/"
+          target="_blank"
+          rel="nofollow norefer"
+          >NRLA</a
+        ><br />
+        <a href="https://www.tpos.co.uk/" target="_blank" rel="nofollow norefer"
+          >Property Ombudsman</a
+        >
       </div>
     </div>
   </footer>
