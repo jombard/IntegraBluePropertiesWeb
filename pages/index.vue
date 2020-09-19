@@ -1,39 +1,49 @@
 <template>
   <div>
-    <div class="main-bg slide-in-from-right"></div>
-
     <PageHeader
       title="Helping Solve Property Problems"
       subtitle="We offer an array of suitable solutions to property owners"
+      class="my-0 lg:my-24"
     >
+      <nuxt-link to="/landlords" class="btn btn-blue mb-3 mt-5"
+        >Find out how we can help</nuxt-link
+      >
+      <nuxt-link to="/contact" class="btn btn-white mb-3">Contact Us</nuxt-link>
     </PageHeader>
 
     <PrimarySection
-      img-url="terraced.jpg"
       headline="Are you a landlord looking for relief from a troublesome property?"
-      alt-text=""
     >
-      <nuxt-link to="/landlords" class="cta"
-        >Find out how we can help</nuxt-link
+      <nuxt-link to="/contact" class="btn text-white"
+        >Contact Us Today</nuxt-link
       >
     </PrimarySection>
 
-    <div class="container py-24 mx-auto relative">
-      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-        <div v-for="(w, i) in workwith" :key="i" class="md:w-1/3 md:mb-0 mb-6">
-          <div class="flex-grow pl-6">
+    <div class="container py-24 mx-auto relative px-4">
+      <div class="flex flex-wrap">
+        <div
+          v-for="(w, i) in workwith"
+          :key="i"
+          class="md:w-1/3 mb-10"
+          :class="
+            i === 0
+              ? 'md:pl-0 md:pr-10'
+              : i === workwith.length - 1
+              ? 'md:pr-0 md:pl-10'
+              : 'md:px-5'
+          "
+        >
+          <div class="flex-grow">
             <nuxt-link :to="w.link">
-              <ImageResponsive :image-url="w.img" :alt="w.title" class="mb-3" />
+              <ImageResponsive :image-url="w.img" :alt="w.title" class="mb-5" />
             </nuxt-link>
-            <h2 class="text-3xl mb-3 text-blue font-bold">
+            <h2 class="text-3xl mb-2 text-blue font-bold">
               <nuxt-link :to="w.link">{{ w.title }}</nuxt-link>
             </h2>
             <p class="leading-7 text-lg">
               {{ w.text }}
             </p>
-            <nuxt-link
-              class="mt-3 text-blue inline-flex items-center"
-              :to="w.link"
+            <nuxt-link class="text-blue inline-flex items-center" :to="w.link"
               >Learn More
               <svg
                 fill="none"
@@ -85,9 +95,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-.main-bg {
-  background-image: url('~assets/images/portland.jpg');
-}
-</style>

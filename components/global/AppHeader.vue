@@ -7,7 +7,7 @@
 
       <nav>
         <MenuIcon />
-        <AppLinks />
+        <AppLinks class="hidden md:flex" />
       </nav>
     </div>
   </header>

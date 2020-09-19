@@ -1,8 +1,10 @@
 <template>
-  <div class="container mx-auto slide-in-from-left px-4 py-24 relative">
-    <h1 class="font-bold mb-5">{{ title }}</h1>
-    <div class="sub-header">
-      <p>{{ subtitle }}</p>
+  <div class="container mx-auto px-4 py-10 md:py-24 relative">
+    <h1 class="font-bold mb-5 text-4xl md:text-5xl text-blue leading-10">
+      {{ title }}
+    </h1>
+    <div>
+      <p class="text-2xl md:text-3xl leading-7 mb-0">{{ subtitle }}</p>
       <slot></slot>
     </div>
   </div>
@@ -22,32 +24,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-.sub-header {
-  margin-left: 20%;
-  position: relative;
-
-  &:before {
-    content: '';
-    position: absolute;
-    left: -100%;
-    right: 100%;
-    height: 100%;
-    background: #f1ede2;
-    margin-right: 3rem;
-  }
-
-  p {
-    font-size: 1.2em;
-    line-height: 1.5em;
-  }
-}
-
-@media (min-width: 900px) {
-  .sub-header {
-    width: 60%;
-    margin-left: 15%;
-  }
-}
-</style>

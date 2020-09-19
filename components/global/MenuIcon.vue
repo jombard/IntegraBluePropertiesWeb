@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div
-      class="main-item menu"
+      class="main-item menu text-blue"
       :class="{ close: isMenuOpen }"
       @click="$store.dispatch('menu/toggle')"
     >

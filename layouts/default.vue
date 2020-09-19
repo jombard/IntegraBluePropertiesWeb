@@ -13,7 +13,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  watch: {
+    $route() {
+      this.$store.dispatch('menu/close')
+    },
+  },
+}
 </script>
 
 <style lang="scss">
@@ -56,10 +62,6 @@ h1,
   }
 }
 
-.menu {
-  color: #006298;
-}
-
 p,
 a {
   font-family: 'Montserrat';
@@ -70,9 +72,8 @@ p {
 }
 
 .page-wrapper {
-  margin-bottom: 250px;
+  margin-bottom: 450px;
   background-color: white;
-  padding-bottom: 50px;
 }
 
 .main-bg {
@@ -111,12 +112,6 @@ p {
   animation: 1s ease-out 0s 1 slideInFromRight;
 }
 
-h1 {
-  font-size: 2.75em;
-  line-height: 1.2em;
-  color: #006298;
-}
-
 a.text-blue {
   position: relative;
 
@@ -136,21 +131,32 @@ a.text-blue {
   }
 }
 
-.cta {
-  color: #98c9e4;
+.btn {
   align-self: center;
   position: relative;
   white-space: nowrap;
   z-index: 10;
   border: 1px solid #98c9e4;
   transition: 1s;
-  padding: 1rem;
+  padding: 1rem 2rem;
   display: inline-block;
+}
 
+.btn-blue {
+  color: #ffffff;
+  background-color: #006298;
   &:hover,
   &:focus {
     background-color: #004368;
-    opacity: 0.8;
+  }
+}
+
+.btn-white {
+  color: #006298;
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: #006298;
   }
 }
 
@@ -164,11 +170,31 @@ a.text-blue {
   body {
     font-size: 20px;
   }
+
+  .page-wrapper {
+    margin-bottom: 250px;
+  }
 }
 
 @media (min-width: 1200px) {
   body {
     font-size: 22px;
+  }
+}
+
+.nuxt-content h3 {
+  @apply text-3xl;
+}
+
+.nuxt-content ul {
+  margin-bottom: 1em;
+  font-family: Montserrat;
+  list-style-type: none;
+
+  li:before {
+    content: '\25A0';
+    color: #006298;
+    margin-right: 10px;
   }
 }
 </style>

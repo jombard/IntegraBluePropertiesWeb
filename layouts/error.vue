@@ -1,7 +1,8 @@
 <template>
   <div class="container mx-auto py-24">
-    <h1>An error has occurred</h1>
-    <pre>{{ error }}</pre>
+    <PageHeader title="An error has occurred">
+      <pre>{{ error }}</pre>
+    </PageHeader>
   </div>
 </template>
 

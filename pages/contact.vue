@@ -1,7 +1,5 @@
 <template>
   <div>
-    <div class="main-bg slide-in-from-right"></div>
-
     <PageHeader title="Contact Us" subtitle="We would love to hear from you" />
 
     <PrimarySection
@@ -21,8 +19,8 @@
       </div>
     </PrimarySection>
 
-    <div class="py-10 relative">
-      <div class="max-w-2xl mx-auto bg-white p-10">
+    <div class="py-0 md:py-10 relative">
+      <div class="max-w-2xl mx-auto bg-white py-10 px-4 md:p-10">
         <div class="mb-4">
           <h2 class="text-3xl">Drop us a note</h2>
           <p class="text-lg">
@@ -57,13 +55,11 @@
           <label for="txtMessage">Message</label>
           <textarea
             id="txtMessage"
-            class="h-32 px-4 py-2 mb-4 resize-none w-full focus:outline-none focus:shadow-outline"
+            class="h-32 px-4 py-2 resize-none w-full focus:outline-none focus:shadow-outline"
           ></textarea>
         </div>
-        <button class="text-white bg-blue border-0 py-2 px-6 w-full">
-          Send message
-        </button>
-        <p class="text-xs text-gray-500 mt-3 text-center">
+        <button class="btn btn-blue w-full">Send message</button>
+        <p class="text-xs text-gray-700 mt-3 text-center">
           Your privacy is important to us, we respect your data and keep it safe
         </p>
       </div>
@@ -81,13 +77,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-.main-bg {
-  background-image: url('~assets/images/contact.jpg');
-}
-
-.section-one .menu-image {
-  background-image: url('~assets/images/cottage1.jpg');
-}
-</style>

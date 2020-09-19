@@ -25,18 +25,17 @@ export default {
 
 .sidenav {
   height: 100%;
-  width: 75%;
+  width: 80%;
   background-color: #d6d6d6;
   z-index: 10000;
   position: fixed;
   top: 0;
   left: 0;
   box-sizing: border-box;
-  padding: 4rem;
+  padding: 3rem;
 
   li > a {
     font-size: 1.5rem;
-    line-height: 3.5rem;
   }
 }
 
