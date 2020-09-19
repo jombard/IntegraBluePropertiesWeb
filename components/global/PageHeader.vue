@@ -4,7 +4,9 @@
       {{ title }}
     </h1>
     <div>
-      <p class="text-2xl md:text-3xl leading-7 mb-0">{{ subtitle }}</p>
+      <p v-if="subtitle" class="text-2xl md:text-3xl leading-7 mb-0">
+        {{ subtitle }}
+      </p>
       <slot></slot>
     </div>
   </div>
@@ -19,7 +21,7 @@ export default {
     },
     subtitle: {
       type: String,
-      required: true,
+      default: '',
     },
   },
 }
