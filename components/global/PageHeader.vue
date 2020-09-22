@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto px-4 py-10 md:py-24 relative">
-    <h1 class="font-bold mb-5 text-4xl md:text-5xl text-blue leading-10">
+    <h1 class="font-bold mb-5 text-4xl md:text-5xl leading-tight">
       {{ title }}
     </h1>
     <div>

@@ -4,7 +4,7 @@
       <PageHeader
         title="Bringing integrity to the property market"
         subtitle="We offer property solutions"
-        :is-white="true"
+        class="text-white"
       >
         <nuxt-link to="/landlords" class="uppercase btn btn-blue mb-3 mt-10"
           >Our Services</nuxt-link
