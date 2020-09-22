@@ -1,3 +1,8 @@
+---
+title: Landlords
+description: We can help landlords in a number of ways, but it starts with knowing what is important to you. Troublesome tenants, mounting expenses, headache agents, we can make it all go away.
+---
+
 ### Rent to Rent
 
 also known as guaranteed rent
