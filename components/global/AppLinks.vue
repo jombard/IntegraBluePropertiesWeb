@@ -1,8 +1,11 @@
 <template>
   <ul>
     <li><nuxt-link to="/">Home</nuxt-link></li>
+    <li><nuxt-link to="/about">About</nuxt-link></li>
+    <li><nuxt-link to="/hmos">HMOs</nuxt-link></li>
     <li><nuxt-link to="/holiday-lets">Holiday Lets</nuxt-link></li>
-    <li><nuxt-link to="/landlords">Landlords</nuxt-link></li>
+    <li><nuxt-link to="/investors">Investors</nuxt-link></li>
+    <li><nuxt-link to="/partners">Partners</nuxt-link></li>
     <li><nuxt-link to="/contact">Contact</nuxt-link></li>
   </ul>
 </template>
