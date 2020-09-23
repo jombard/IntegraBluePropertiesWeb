@@ -3,6 +3,7 @@
     <PageHeader
       title="Working together to work better"
       subtitle="We are always looking to work with like minded individuals and companies"
+      class="text-blue"
     />
 
     <PrimarySection

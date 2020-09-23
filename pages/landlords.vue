@@ -3,6 +3,7 @@
     <PageHeader
       title="Landlords"
       subtitle="Are you a landlord looking for solutions? We may be able to help!"
+      class="text-blue"
     />
 
     <PrimarySection

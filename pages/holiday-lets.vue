@@ -3,6 +3,7 @@
     <PageHeader
       title="Holiday Lets"
       subtitle="Are you looking for holiday let management? We may be able to help!"
+      class="text-blue"
     />
 
     <PrimarySection

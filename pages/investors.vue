@@ -3,6 +3,7 @@
     <PageHeader
       title="Working smarter not harder"
       subtitle="Putting your capital to work with a trusted, transparent resource"
+      class="text-blue"
     >
     </PageHeader>
 
