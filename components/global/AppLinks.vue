@@ -1,12 +1,26 @@
 <template>
   <ul>
-    <li><nuxt-link to="/">Home</nuxt-link></li>
-    <li><nuxt-link to="/about">About</nuxt-link></li>
-    <li><nuxt-link to="/landlords">Landlords</nuxt-link></li>
-    <li><nuxt-link to="/investors">Investors</nuxt-link></li>
-    <li><nuxt-link to="/partners">Partners</nuxt-link></li>
-    <li><nuxt-link to="/tenants">Tenants</nuxt-link></li>
-    <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+    <li>
+      <nuxt-link to="/" class="link-underline">Home</nuxt-link>
+    </li>
+    <li>
+      <nuxt-link to="/about" class="link-underline">About</nuxt-link>
+    </li>
+    <li>
+      <nuxt-link to="/landlords" class="link-underline">Landlords</nuxt-link>
+    </li>
+    <li>
+      <nuxt-link to="/investors" class="link-underline">Investors</nuxt-link>
+    </li>
+    <li>
+      <nuxt-link to="/partners" class="link-underline">Partners</nuxt-link>
+    </li>
+    <li>
+      <nuxt-link to="/tenants" class="link-underline">Tenants</nuxt-link>
+    </li>
+    <li>
+      <nuxt-link to="/contact" class="link-underline">Contact</nuxt-link>
+    </li>
   </ul>
 </template>
 
