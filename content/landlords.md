@@ -4,13 +4,13 @@ description: We can help landlords in a number of ways, but it starts with knowi
 svg: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6'
 ---
 
-### Rent to Rent
+### Guaranteed Rent
 
-also known as guaranteed rent
+Do you want a monthly income without having the responsibility of running your property? 
 
-Do you want a monthly income without having to do anything? Well we can help manage the leasing of your property so you can sit back and enjoy the better things in life.
+Well, we can help manage the leasing of your property so you can sit back and enjoy the better things in life.
 
-You will no longer need to worry about:
+**You will no longer need to worry about:**
 - Dealing with agents
 - Dealing with tenants
 - Advertising
@@ -22,13 +22,13 @@ You will no longer need to worry about:
 - Inspections
 - Permits, certificates and licenses
 
-**Guaranteed rent, no voids, no hassle**
+**Guaranteed rent, no voids, no-hassle**
 
-We will take all of the hassle away from you, whilst ensuring you still receive a fair price for your property. We are honest and open so will always go through our plans with you in regards to what we will do with your property. Whilst we would become responsible for the day to day running and upkeep of the property, ultimately you are still the owner. We pride ourselves on our integrity and want to build solid relationships with our landlords and our tenants.
+We will take all of the hassles away from you, whilst ensuring you still receive a fair price for your property. We are honest and open so will always go through our plans with you in regards to what we will do with your property. Whilst we would become responsible for the day to day running and upkeep of the property, ultimately you are still the owner. We pride ourselves on our integrity and want to build solid relationships with our landlords and our tenants.
 
 **Length of contract**
 
-We can arrange contracts for any length of time to fit in with you. We can even look at purchase lease options if you know you would like to sell the property in the future.
+We can arrange contracts for any length of time to fit in with you. We can even look at suitable methods of sale if you know you would like to sell the property in the future.
 
 **Power Team**
 

@@ -1,6 +1,7 @@
-### Our mission
-
-To bring integrity to the property market.
+---
+title: Our Mission
+description: To bring integrity to the property market
+---
 
 ### Our Core Values
 
@@ -25,3 +26,9 @@ We will always charge fair prices and seek to work responsibly and sustainably.
 - **Creativity & Adventure**
 
 We try to think outside the box and love to inject a little fun into our projects!
+
+### Who Are We
+
+Jon Lombard started IntegraBlue Properties to bring an open and honest business to the property market. Honesty is not always at the forefront of property businesses, so it is an attempt to keep this trait front and centre of the company.
+
+Jon lives in Dorset with his wife and daughter, and when he is not in front of the computer working on his web business or spending time with his family, he can be found running around the trails of the hilly Dorset coastline.
