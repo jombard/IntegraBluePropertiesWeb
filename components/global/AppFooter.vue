@@ -7,27 +7,7 @@
           Registered Company in England no: 12247772<br />
           &copy; Copyright 2020
         </div>
-        <div class="mb-5 md:w-1/3">
-          <strong>Socials</strong><br />
-          <a
-            href="https://www.instagram.com/integrablueproperties/"
-            target="_blank"
-            rel="nofollow norefer"
-            >Instagram</a
-          ><br />
-          <a
-            href="https://www.facebook.com/integrablueproperties/"
-            target="_blank"
-            rel="nofollow norefer"
-            >Facebook</a
-          ><br />
-          <a
-            href="https://twitter.com/integrablueprop"
-            target="_blank"
-            rel="nofollow norefer"
-            >Twitter</a
-          >
-        </div>
+        <div class="mb-5 md:w-1/3"></div>
         <div class="mb-5 md:w-1/3">
           <strong>Registered with</strong><br />
           <a href="https://ico.org.uk/" target="_blank" rel="nofollow norefer"
