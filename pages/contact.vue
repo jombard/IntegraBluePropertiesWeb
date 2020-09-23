@@ -1,7 +1,5 @@
 <template>
   <div>
-    <div class="main-bg slide-in-from-right"></div>
-
     <PageHeader
       title="Contact Us"
       subtitle="We would love to hear from you"
@@ -25,7 +23,7 @@
       </div>
     </PrimarySection>
 
-    <div class="py-0 md:py-10 relative">
+    <div class="py-0 md:py-10 relative bg-contact bg-cover-img">
       <div class="max-w-2xl mx-auto bg-white py-10 px-4 md:p-10">
         <form
           action="https://formspree.io/myybyypp"
@@ -140,7 +138,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.main-bg {
-  background-image: url('~assets/images/contact.jpg');
+.bg-contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('~assets/images/contact.jpg');
 }
 </style>
