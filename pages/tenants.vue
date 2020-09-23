@@ -1,12 +1,20 @@
 <template>
   <div>
-    <PageHeader title="Tenants" class="text-blue" />
+    <PageHeader
+      :title="page.title"
+      :subtitle="page.description"
+      class="text-blue"
+    />
+
+    <PrimarySection title="" />
 
     <ContentSection>
       <nuxt-content :document="page" />
     </ContentSection>
 
-    <SignUpForm />
+    <SignUpForm title="Register your details">
+      Be the first to hear about upcoming vacancies
+    </SignUpForm>
   </div>
 </template>
 
@@ -18,5 +26,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped></style>

@@ -1,21 +1,20 @@
 <template>
   <div>
     <PageHeader
-      title="Landlords"
-      subtitle="Are you a landlord looking for solutions? We may be able to help!"
+      :title="page.title"
+      :subtitle="page.description"
       class="text-blue"
     />
 
-    <PrimarySection
-      headline="Offering solutions for landlords"
-      alt-text="Offering the best solutions for a range of issues"
-    />
+    <PrimarySection />
 
     <ContentSection>
       <nuxt-content :document="page" />
     </ContentSection>
 
-    <SignUpForm />
+    <SignUpForm title="Contact Us">
+      Please send us your details and we will get back to you
+    </SignUpForm>
   </div>
 </template>
 
