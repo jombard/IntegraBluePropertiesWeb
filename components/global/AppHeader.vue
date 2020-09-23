@@ -7,7 +7,7 @@
 
       <nav>
         <MenuIcon />
-        <AppLinks class="hidden md:flex" />
+        <AppLinks class="hidden md:flex header-links" />
       </nav>
     </div>
   </header>
@@ -18,9 +18,3 @@ export default {
   name: 'TheHeader',
 }
 </script>
-
-<style lang="scss">
-header {
-  background: white;
-}
-</style>
