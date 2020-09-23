@@ -46,7 +46,9 @@
             <p class="leading-7 text-lg">
               {{ w.description }}
             </p>
-            <nuxt-link class="text-blue inline-flex items-center" :to="w.path"
+            <nuxt-link
+              class="text-blue inline-flex items-center link-underline"
+              :to="w.path"
               >Learn More
               <svg
                 fill="none"
