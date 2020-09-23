@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto p-0 md:px-4 md:py-10 relative">
-    <div class="bg-white px-4 py-10">
+    <div class="bg-white p-10">
       <h2 class="text-2xl mb-5">Register your interest</h2>
 
       <form
