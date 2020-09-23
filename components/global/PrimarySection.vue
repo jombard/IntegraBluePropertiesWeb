@@ -3,8 +3,8 @@
     <section class="relative">
       <div class="container py-10 md:py-24 px-4 mx-auto">
         <div class="text-white">
-          <h2 class="text-3xl mb-3">{{ headline }}</h2>
-          <p class="text-lg">
+          <h2 class="text-4xl mb-3">{{ headline }}</h2>
+          <p class="text-2xl">
             {{ altText }}
           </p>
         </div>
