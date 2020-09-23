@@ -105,14 +105,6 @@ export default {
     url('~assets/images/portland.jpg');
 }
 
-.bg-cover-img {
-  background-attachment: fixed;
-  background-size: cover;
-  background-position-x: initial, center;
-  background-position-y: initial, center;
-  background-repeat: initial, no-repeat;
-}
-
 .bg-oxford {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('~assets/images/oxford.jpg');
