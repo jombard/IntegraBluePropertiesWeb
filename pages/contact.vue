@@ -1,6 +1,12 @@
 <template>
   <div>
-    <PageHeader title="Contact Us" subtitle="We would love to hear from you" />
+    <div class="main-bg slide-in-from-right"></div>
+
+    <PageHeader
+      title="Contact Us"
+      subtitle="We would love to hear from you"
+      class="text-blue"
+    />
 
     <PrimarySection
       img-url="cottage1.jpg"
@@ -132,3 +138,9 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" scoped>
+.main-bg {
+  background-image: url('~assets/images/contact.jpg');
+}
+</style>

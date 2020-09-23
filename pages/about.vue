@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageHeader title="About Us" />
+    <PageHeader title="About Us" class="text-blue" />
   </div>
 </template>
 
