@@ -1,5 +1,63 @@
 <template>
   <div>
+    <div class="bg-gray-800 text-white">
+      <div class="container mx-auto flex flex-row-reverse px-4">
+        <a href="mailto:hello@integrablue.co.uk" class="w-6">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            />
+          </svg>
+          <span class="sr-only">Email</span>
+        </a>
+        <a href="tel:01308 800 291" class="mr-5 w-6">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+            />
+          </svg>
+          <span class="sr-only">Phone</span>
+        </a>
+        <a
+          href="https://www.instagram.com/integrablueproperties/"
+          target="_blank"
+          class="mr-5"
+          rel="nofollow norefer"
+          >Instagram</a
+        ><br />
+        <a
+          href="https://www.facebook.com/integrablueproperties/"
+          target="_blank"
+          class="mr-5"
+          rel="nofollow norefer"
+          >Facebook</a
+        ><br />
+        <a
+          href="https://twitter.com/integrablueprop"
+          target="_blank"
+          class="mr-5"
+          rel="nofollow norefer"
+          >Twitter</a
+        >
+      </div>
+    </div>
+
     <AppHeader />
 
     <AppSidebar />
@@ -80,7 +138,7 @@ p {
   position: absolute;
   background: url('~assets/images/mews.jpg');
   background-position: 40% 0;
-  width: 25%;
+  width: 40%;
   height: 800px;
   right: 0;
   opacity: 0.6;
