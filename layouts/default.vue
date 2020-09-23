@@ -122,7 +122,7 @@ p {
   animation: 1s ease-out 0s 1 slideInFromRight;
 }
 
-a.text-blue {
+a.link-underline {
   position: relative;
 
   &:before {
@@ -193,7 +193,7 @@ a.text-blue {
 }
 
 .nuxt-content h3 {
-  @apply text-3xl;
+  @apply text-5xl;
 }
 
 .nuxt-content ul {
