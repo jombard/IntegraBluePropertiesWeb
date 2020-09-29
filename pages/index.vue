@@ -75,7 +75,7 @@
       >
     </PrimarySection> -->
 
-    <!-- <div class="bg-oxford bg-cover-img flex items-center justify-center py-24">
+    <div class="bg-oxford bg-cover-img flex items-center justify-center py-24">
       <blockquote
         class="bg-blue font-serif mx-4 p-4 text-center text-white md:p-8 my-24"
       >
@@ -85,10 +85,9 @@
       </blockquote>
     </div>
 
-    <div class="container mx-auto py-24">
-      <h2 class="text-blue text-4xl font-bold">Contact Us</h2>
-      <div>Drop us a note <nuxt-link to="/contact">here</nuxt-link></div>
-    </div> -->
+    <SignUpForm title="Contact Us">
+      Please send us your details and we will get back to you
+    </SignUpForm>
   </div>
 </template>
 
@@ -103,7 +102,7 @@ export default {
 
 <style>
 .bg-portland {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('~assets/images/portland.jpg');
 }
 
