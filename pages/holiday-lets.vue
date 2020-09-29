@@ -15,14 +15,14 @@
       <nuxt-content :document="page" />
     </ContentSection>
 
-    <SignUpForm />
+    <SignUpForm title="Contact Us" />
   </div>
 </template>
 
 <script>
 export default {
   async asyncData({ $content }) {
-    const page = await $content('holidaylets').fetch()
+    const page = await $content('services/holidaylets').fetch()
     return { page }
   },
 }
