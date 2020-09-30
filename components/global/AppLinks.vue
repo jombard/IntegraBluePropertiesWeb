@@ -1,16 +1,16 @@
 <template>
   <ul>
     <li>
-      <nuxt-link to="/" class="link-underline">Home</nuxt-link>
+      <nuxt-link to="/">Home</nuxt-link>
     </li>
     <li>
-      <nuxt-link to="/services" class="link-underline">Services</nuxt-link>
+      <nuxt-link to="/about">About</nuxt-link>
     </li>
     <li>
-      <nuxt-link to="/about" class="link-underline">About</nuxt-link>
+      <nuxt-link to="/services">Services</nuxt-link>
     </li>
     <li>
-      <nuxt-link to="/contact" class="link-underline">Contact</nuxt-link>
+      <nuxt-link to="/contact">Contact</nuxt-link>
     </li>
   </ul>
 </template>
