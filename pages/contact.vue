@@ -9,6 +9,7 @@
     <PrimarySection
       headline="Get in touch"
       alt-text="Please call or email us today"
+      image-url="contact.jpg"
     >
       <div class="text-white flex">
         <div class="mr-10">
