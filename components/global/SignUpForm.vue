@@ -1,5 +1,5 @@
 <template>
-  <div class="py-0 md:py-10">
+  <div class="py-0 md:py-24">
     <div class="max-w-2xl mx-auto bg-white py-10 px-4 md:p-10">
       <form
         action="https://formspree.io/myybyypp"
