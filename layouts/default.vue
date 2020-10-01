@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TopPageLinks />
+    <TopPageLinks class="hidden md:flex" />
 
     <AppHeader />
 
@@ -193,7 +193,14 @@ a.link-underline {
 }
 
 .nuxt-content h3 {
-  @apply text-5xl;
+  @apply text-3xl;
+  @apply leading-tight;
+}
+
+@screen md {
+  .nuxt-content h3 {
+    @apply text-5xl;
+  }
 }
 
 .nuxt-content ul {

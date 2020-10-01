@@ -117,29 +117,29 @@
     </SignUpForm>
 
     <div class="container py-24 mx-auto px-4">
-      <div class="flex items-center">
-        <div class="w-1/4 px-5">
+      <div class="flex flex-wrap items-center">
+        <div class="w-1/2 md:w-1/4 px-5">
           <img
             class="mx-auto"
             src="~/assets/images/pin-logo.png"
             alt="Property Investors Network Logo"
           />
         </div>
-        <div class="w-1/4 px-5">
+        <div class="w-1/2 md:w-1/4 px-5">
           <img
             class="mx-auto"
             src="~/assets/images/nrla-members-logo.png"
             alt="NRLA Members Logo"
           />
         </div>
-        <div class="w-1/4 px-5">
+        <div class="w-1/2 md:w-1/4 px-5">
           <img
             class="mx-auto"
             src="~/assets/images/property-ombudsman-logo.png"
             alt="Property Ombudsman Logo"
           />
         </div>
-        <div class="w-1/4 px-5">
+        <div class="w-1/2 md:w-1/4 px-5">
           <img
             class="mx-auto"
             src="~/assets/images/ico-logo.png"

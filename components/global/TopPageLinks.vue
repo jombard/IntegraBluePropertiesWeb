@@ -1,7 +1,9 @@
 <template>
-  <div class="bg-white text-blue">
-    <div class="container mx-auto flex flex-row-reverse px-4 py-2">
-      <a href="mailto:hello@integrablue.co.uk" class="w-6">
+  <div class="md:bg-white text-blue">
+    <div
+      class="container mx-auto flex flex-col md:flex-row-reverse md:px-4 py-2"
+    >
+      <a href="mailto:hello@integrablue.co.uk" class="w-10 md:w-6 mb-5 md:mb-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -17,7 +19,7 @@
         </svg>
         <span class="sr-only">Email</span>
       </a>
-      <a href="tel:01308 800 291" class="mr-5 w-6">
+      <a href="tel:01308 800 291" class="mr-5 w-10 md:w-6 mb-5 md:mb-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -36,7 +38,7 @@
       <a
         href="https://twitter.com/integrablueprop"
         target="_blank"
-        class="mr-5 w-6"
+        class="mr-5 w-10 md:w-6 mb-5 md:mb-0"
         rel="nofollow norefer"
       >
         <svg
@@ -60,7 +62,7 @@
       <a
         href="https://www.facebook.com/integrablueproperties/"
         target="_blank"
-        class="mr-5 w-6"
+        class="mr-5 w-10 md:w-6 mb-5 md:mb-0"
         rel="nofollow norefer"
       >
         <svg
@@ -85,7 +87,7 @@
       <a
         href="https://www.instagram.com/integrablueproperties/"
         target="_blank"
-        class="mr-5 w-6"
+        class="mr-5 w-10 md:w-6 mb-5 md:mb-0"
         rel="nofollow norefer"
       >
         <svg
