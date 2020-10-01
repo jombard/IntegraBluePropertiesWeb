@@ -1,7 +1,10 @@
 <template>
   <div class="menu-container">
     <transition name="slide-side">
-      <AppLinks v-if="isMenuOpen" class="sidenav" />
+      <div v-if="isMenuOpen" class="sidenav">
+        <AppLinks />
+        <TopPageLinks />
+      </div>
     </transition>
   </div>
 </template>
