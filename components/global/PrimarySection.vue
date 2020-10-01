@@ -1,7 +1,7 @@
 <template>
   <div class="bg-blue">
     <div
-      class="container py-10 md:py-24 px-4 mx-auto flex flex-wrap justify-between"
+      class="container py-10 md:py-24 px-4 mx-auto flex flex-wrap md:flex-no-wrap justify-between"
     >
       <div class="mb-5 md:mb-0">
         <div class="text-white">

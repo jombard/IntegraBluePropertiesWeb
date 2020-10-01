@@ -13,12 +13,12 @@
     >
       <div class="text-white flex flex-wrap">
         <div class="mr-10">
-          <h2 class="text-2xl">Email</h2>
-          <a :href="`mailto:${email}`" class="text-lg">{{ email }}</a>
-        </div>
-        <div>
           <h2 class="text-2xl">Phone</h2>
           <a :href="`tel:${phone}`" class="text-lg">{{ phone }}</a>
+        </div>
+        <div>
+          <h2 class="text-2xl">Email</h2>
+          <a :href="`mailto:${email}`" class="text-lg">{{ email }}</a>
         </div>
       </div>
     </PrimarySection>
