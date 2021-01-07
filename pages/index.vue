@@ -20,7 +20,7 @@
         <div
           v-for="(w, i) in pages"
           :key="i"
-          class="md:w-1/4 mb-10 text-center md:px-5"
+          class="md:w-1/3 mb-10 text-center md:px-5 mx-auto"
         >
           <div class="flex-grow">
             <nuxt-link :to="w.path">
@@ -155,7 +155,7 @@
 export default {
   async asyncData({ $content }) {
     const pages = await $content('').fetch()
-    return { pages }
+    return { pages: pages.sort((a, b) => a.order - b.order) }
   },
 }
 </script>
