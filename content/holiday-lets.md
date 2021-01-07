@@ -1,3 +1,10 @@
+---
+title: Holiday Lets
+description: Offering solutions to holiday home owners.
+svg: 'M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+order: 5
+---
+
 **Did you know you could make up to double your monthly mortgage payments in as little as two weeks...**
 
 Every year, you see them come and go. Some people will be counting down the days until the end of the holiday season and some people will be wondering how they can take advantage of the influx of visitors. The good news is that it could be easier than you think to make a small fortunate by letting out your property to holiday makers. That is - if you leave it to us!

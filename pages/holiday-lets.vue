@@ -1,8 +1,8 @@
 <template>
   <div>
     <PageHeader
-      title="Holiday Lets"
-      subtitle="Are you looking for holiday let management?"
+      :title="page.title"
+      :subtitle="page.description"
       class="text-blue"
     />
 
@@ -22,7 +22,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const page = await $content('services/holidaylets').fetch()
+    const page = await $content('holiday-lets').fetch()
     return { page }
   },
 }
