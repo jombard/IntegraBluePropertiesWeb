@@ -2,15 +2,17 @@
 title: Landlords
 description: We can help landlords in a number of ways, but it starts with knowing what is important to you. Troublesome tenants, mounting expenses, headache agents, we can make it all go away.
 svg: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6'
+order: 1
 ---
 
 ### Guaranteed Rent
 
-Do you want a monthly income without having the responsibility of running your property? 
+Do you want a monthly income without having the responsibility of running your property?
 
 Well, we can help manage the leasing of your property so you can sit back and enjoy the better things in life.
 
 **You will no longer need to worry about:**
+
 - Dealing with agents
 - Dealing with tenants
 - Advertising
