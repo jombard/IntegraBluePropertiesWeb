@@ -24,7 +24,7 @@
     </PrimarySection>
 
     <SignUpForm title="Drop us a note">
-      Send us your query and we will get back to you shortly
+      Send us your query and we will get back to you
     </SignUpForm>
   </div>
 </template>
