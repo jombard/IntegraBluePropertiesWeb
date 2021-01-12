@@ -21,3 +21,14 @@ We will always charge fair prices and seek to work responsibly and sustainably
 
 **Creativity & adventure**<br>
 We try to think outside the box and love to inject a little fun into our projects!
+
+### Who We Are
+
+Jon Lombard started IntegraBlue Properties to bring an open and honest
+business to the property market. He is primarily interested in working
+with HMO landlords and holiday home owners.
+
+Jon lives in Dorset with his wife and daughter, and when he is not in
+front of the computer working on his web business or spending time
+with his family, he can be found running around the trails of the
+hilly Dorset coastline.
