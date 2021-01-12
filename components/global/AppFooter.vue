@@ -5,7 +5,7 @@
         <div class="mb-5 md:mb-0 md:w-1/3">
           <strong>IntegraBlue Properties</strong><br />
           Registered Company in England no: 12247772<br />
-          &copy; Copyright 2020
+          &copy; Copyright 2020. All Rights Reserved.
         </div>
         <div class="mb-5 md:mb-0 md:w-1/3"></div>
         <div class="mb-5 md:mb-0 md:w-1/3">
