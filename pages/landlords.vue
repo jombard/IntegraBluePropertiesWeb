@@ -1,10 +1,6 @@
 <template>
   <div>
-    <PageHeader
-      :title="page.title"
-      :subtitle="page.description"
-      class="text-blue"
-    />
+    <PageHeader :title="page.title" class="text-blue" />
 
     <PrimarySection />
 

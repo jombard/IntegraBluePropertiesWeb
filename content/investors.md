@@ -6,3 +6,13 @@ order: 2
 ---
 
 ### Are you looking for better returns on your capital?
+
+We work with private investors to help them get the best returns on their funds.
+
+**Make your money work smarter**
+
+High street banks are lowering the interest offered on your savings accounts. These accounts are no longer the best place to hold your funds. Invest with us to get better returns.
+
+**Leave your details**
+
+Add your details in the contact form below and we will get back to you with details about how to proceed.

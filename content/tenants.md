@@ -7,4 +7,6 @@ order: 4
 
 ### Vacancies
 
+We will post our vacancies when available, but to be informed ahead of time of upcoming properties, please fill out the contact form below.
+
 _No current vacancies_

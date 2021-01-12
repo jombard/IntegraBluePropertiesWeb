@@ -1,12 +1,11 @@
 <template>
   <div>
-    <PageHeader
-      :title="page.title"
-      :subtitle="page.description"
-      class="text-blue"
-    />
+    <PageHeader :title="page.title" class="text-blue" />
 
-    <PrimarySection />
+    <PrimarySection
+      headline="Go together to go further"
+      image-url="partners.jpg"
+    />
 
     <ContentSection>
       <nuxt-content :document="page" />

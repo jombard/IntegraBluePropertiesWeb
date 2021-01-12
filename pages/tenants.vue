@@ -1,12 +1,12 @@
 <template>
   <div>
-    <PageHeader
-      :title="page.title"
-      :subtitle="page.description"
-      class="text-blue"
-    />
+    <PageHeader :title="page.title" class="text-blue" />
 
-    <PrimarySection />
+    <PrimarySection
+      headline="Looking for quality accommodation?"
+      alt-text="You have come to the right place"
+      image-url="oxford.jpg"
+    />
 
     <ContentSection>
       <nuxt-content :document="page" />
