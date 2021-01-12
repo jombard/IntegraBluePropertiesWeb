@@ -35,7 +35,7 @@ export default {
   top: 0;
   left: 0;
   box-sizing: border-box;
-  padding: 3rem;
+  padding: 1rem 3rem;
 
   li > a {
     font-size: 1.5rem;
