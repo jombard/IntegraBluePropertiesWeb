@@ -34,6 +34,6 @@ We can arrange contracts for any length of time to fit in with you. We can even 
 
 **Power Team**
 
-We have a trusted team that we work with on all our projects. From local electricians and plumbers to lawyers and accountants. We always use fair and trusted tradesmen so you can rest assured we will look after your property and your tenants.
+We have a trusted team that we work with on all our projects. From local electricians and plumbers to solicitors and accountants. We always use fair and trusted tradesmen so you can rest assured we will look after your property and your tenants.
 
 If you have a property which you currently lease and want us to take the hassle away then get in touch today!
