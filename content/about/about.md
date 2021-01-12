@@ -22,6 +22,8 @@ We will always charge fair prices and seek to work responsibly and sustainably
 **Creativity & adventure**<br>
 We try to think outside the box and love to inject a little fun into our projects!
 
+<img src="_nuxt/assets/images/talk.jpg" alt="Jon giving a talk to investors">
+
 ### Who We Are
 
 Jon Lombard started IntegraBlue Properties to bring an open and honest
