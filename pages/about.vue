@@ -17,7 +17,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const page = await $content('about/about').fetch()
+    const page = await $content('pages/about').fetch()
     return { page }
   },
 }
