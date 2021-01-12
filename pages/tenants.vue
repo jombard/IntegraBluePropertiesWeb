@@ -6,7 +6,7 @@
       class="text-blue"
     />
 
-    <PrimarySection title="" />
+    <PrimarySection />
 
     <ContentSection>
       <nuxt-content :document="page" />
