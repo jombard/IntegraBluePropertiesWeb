@@ -69,8 +69,10 @@
 
     <PrimarySection
       headline="Are you looking to make money from your property by renting it out as a holiday let?"
-      image-url="holidayhome.jpg"
-    />
+      ><nuxt-link class="text-white inline-flex btn" to="/holiday-lets"
+        >Find Out More</nuxt-link
+      >
+    </PrimarySection>
 
     <div v-if="false" class="container mx-auto py-24 px-4">
       <div class="text-center">
