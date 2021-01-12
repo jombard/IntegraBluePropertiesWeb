@@ -7,7 +7,7 @@
       <div class="mb-5 md:mb-0">
         <div class="text-white">
           <h2 class="text-3xl md:text-5xl leading-tight">{{ headline }}</h2>
-          <p v-if="altText" class="text-2xl">
+          <p v-if="altText" class="text-2xl mb-0">
             {{ altText }}
           </p>
         </div>
