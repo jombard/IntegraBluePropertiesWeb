@@ -25,8 +25,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Montserrat');
-
 *,
 *::before,
 *::after {
@@ -35,8 +33,8 @@ export default {
 }
 
 html {
-  // font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-  //   Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -53,7 +51,6 @@ body {
 
 h1,
 .logo {
-  font-family: 'Montserrat';
   font-weight: normal;
 }
 
@@ -62,11 +59,6 @@ h1,
   strong {
     color: #006298;
   }
-}
-
-p,
-a {
-  font-family: 'Montserrat';
 }
 
 p {
@@ -205,7 +197,6 @@ a.link-underline {
 
 .nuxt-content ul {
   margin-bottom: 1em;
-  font-family: Montserrat;
   list-style-type: none;
 
   li:before {
