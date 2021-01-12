@@ -5,7 +5,7 @@
     <PrimarySection
       :headline="page.title"
       :alt-text="page.description"
-      image-url="talk.jpg"
+      image-url="jon-lombard.jpg"
     />
 
     <ContentSection>
