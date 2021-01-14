@@ -4,7 +4,7 @@
       <PageHeader
         title="Bringing integrity to the property market"
         subtitle="We offer property solutions"
-        class="text-white"
+        :is-white="true"
       >
         <nuxt-link to="/services" class="uppercase btn btn-blue mb-3 mt-10">
           Our Services
@@ -40,7 +40,7 @@
                 </svg>
               </div>
             </nuxt-link>
-            <h2 class="text-3xl mb-2 font-bold">
+            <h2 class="text-3xl mb-2">
               <nuxt-link :to="w.path">{{ w.title }}</nuxt-link>
             </h2>
             <p class="leading-7 text-lg">

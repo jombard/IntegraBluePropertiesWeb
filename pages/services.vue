@@ -36,7 +36,7 @@
               </svg>
             </div>
           </nuxt-link>
-          <h2 class="text-3xl mb-2 font-bold">
+          <h2 class="text-3xl mb-2">
             <nuxt-link :to="page.path">{{ page.title }}</nuxt-link>
           </h2>
           <p>{{ page.description }}</p>
