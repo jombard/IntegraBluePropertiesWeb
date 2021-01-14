@@ -16,12 +16,6 @@
           <nuxt-link to="/investors">Investors</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/partners">Partners</nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="/tenants">Tenants</nuxt-link>
-        </li>
-        <li>
           <nuxt-link to="/holiday-lets">Holiday Lets</nuxt-link>
         </li>
       </ul>
