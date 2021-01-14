@@ -1,7 +1,5 @@
 <template>
   <div>
-    <TopPageLinks class="hidden md:flex" />
-
     <AppHeader />
 
     <AppSidebar />
@@ -124,7 +122,7 @@ a.link-underline {
     position: absolute;
     bottom: 0;
     left: 0;
-    transition: all 1s;
+    transition: all 0.5s;
     right: 100%;
   }
 
