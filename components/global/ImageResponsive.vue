@@ -18,7 +18,11 @@ export default {
   },
   computed: {
     imageRequired() {
-      return require(`@/assets/images/${this.imageUrl}`)
+      try {
+        return require(`@/assets/images/${this.imageUrl}`)
+      } catch (error) {
+        return null
+      }
     },
   },
 }
