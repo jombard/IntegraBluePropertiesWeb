@@ -1,15 +1,15 @@
 ---
 title: Holiday Lets
-description: Offering solutions to holiday home owners.
+description: We are offering solutions to holiday homeowners.
 svg: 'M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
 order: 5
 ---
 
-**Did you know you could make up to double your monthly mortgage payments in as little as two weeks...**
+**Did you know you could make up to double your monthly mortgage payments in as little as two weeks?**
 
-Every year, you see them come and go. Some people will be counting down the days until the end of the holiday season and some people will be wondering how they can take advantage of the influx of visitors. The good news is that it could be easier than you think to make a small fortunate by letting out your property to holiday makers. That is - if you leave it to us!
+Every year, you see them come and go. Some people will be counting down the days until the end of the holiday season and some people will be wondering how they can take advantage of the influx of visitors. The good news is that it could be easier than you think to make a small fortune by letting out your property to holidaymakers. That is - if you leave it to us!
 
-There are an important number of factors to consider and that is where we can help.
+There is an essential number of factors to consider and that is where we can help.
 
 **Do your research**
 
@@ -37,4 +37,4 @@ Know where to advertise and how to take bookings.
 
 This list may sound overwhelming but, at IntegraBlue Properties, we can help with each of the aspects above to ensure you have a hassle-free experience of letting out your property.
 
-If you are interested then please do get in touch.
+If you are interested, then please do get in touch.

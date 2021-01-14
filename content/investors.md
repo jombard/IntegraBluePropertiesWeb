@@ -15,4 +15,4 @@ High street banks are lowering the interest offered on your savings accounts. Th
 
 **Leave your details**
 
-Add your details in the contact form below and we will get back to you with details about how to proceed.
+Add your details in the contact form below and we will get back to you with further information about how to proceed.

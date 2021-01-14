@@ -1,6 +1,6 @@
 ---
 title: Landlords
-description: We can help landlords in a number of ways, but it starts with knowing what is important to you. Troublesome tenants, mounting expenses, headache agents, we can make it all go away.
+description: We can help landlords several ways, but it starts with knowing what is important to you. Troublesome tenants, mounting expenses, headache agents, we can make it all go away.
 svg: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6'
 order: 1
 ---
@@ -26,7 +26,7 @@ Well, we can help manage the leasing of your property so you can sit back and en
 
 **Guaranteed rent, no voids, no-hassle**
 
-We will take all of the hassles away from you, whilst ensuring you still receive a fair price for your property. We are honest and open so will always go through our plans with you in regards to what we will do with your property. Whilst we would become responsible for the day to day running and upkeep of the property, ultimately you are still the owner. We pride ourselves on our integrity and want to build solid relationships with our landlords and our tenants.
+We will take all of the hassles away from you, whilst ensuring you still receive a fair price for your property. We are honest and open, so we will always go through our plans with you regarding what we will do with your property. Whilst we would become responsible for the day to day running and upkeep of the property, ultimately you are still the owner. We pride ourselves on our integrity and want to build solid relationships with our landlords and our tenants.
 
 **Length of contract**
 
@@ -34,6 +34,6 @@ We can arrange contracts for any length of time to fit in with you. We can even 
 
 **Power Team**
 
-We have a trusted team that we work with on all our projects. From local electricians and plumbers to solicitors and accountants. We always use fair and trusted tradesmen so you can rest assured we will look after your property and your tenants.
+We have a trusted team that we work with on all our projects, from local electricians and plumbers to solicitors and accountants. We always use fair and trusted tradespeople so you can rest assured we will look after your property and your tenants.
 
-If you have a property which you currently lease and want us to take the hassle away then get in touch today!
+If you have a property you currently lease and want us to take the hassle away get in touch today!
