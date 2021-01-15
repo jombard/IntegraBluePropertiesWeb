@@ -1,12 +1,6 @@
 <template>
   <div>
-    <PageHeader :title="page.title" class="text-blue"> </PageHeader>
-
-    <PrimarySection
-      headline="Make your money work smarter by investing with us"
-      alt-text=""
-      image-url="investment-property.jpg"
-    />
+    <PrimarySection headline="Investors" />
 
     <ContentSection>
       <nuxt-content :document="page" />

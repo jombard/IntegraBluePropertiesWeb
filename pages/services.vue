@@ -1,16 +1,6 @@
 <template>
   <div>
-    <PageHeader
-      title="Services"
-      subtitle="How can we help you?"
-      class="text-blue"
-    />
-
-    <PrimarySection
-      headline="Allow us to take the hard work out of property"
-      alt-text=""
-      image-url="cottage2.jpg"
-    />
+    <PrimarySection headline="Services" />
 
     <ContentSection>
       <div class="flex flex-wrap">

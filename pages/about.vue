@@ -1,16 +1,12 @@
 <template>
   <div>
-    <PageHeader title="About Us" class="text-blue" />
-
-    <PrimarySection
-      :headline="page.title"
-      :alt-text="page.description"
-      image-url="jon-lombard.jpg"
-    />
+    <PrimarySection headline="About" />
 
     <ContentSection>
       <nuxt-content :document="page" />
     </ContentSection>
+
+    <div class="container mx-auto px-4 py-10"></div>
   </div>
 </template>
 

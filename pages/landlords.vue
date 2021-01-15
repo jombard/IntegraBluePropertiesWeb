@@ -1,8 +1,6 @@
 <template>
   <div>
-    <PageHeader :title="page.title" class="text-blue" />
-
-    <PrimarySection />
+    <PrimarySection headline="Landlords" />
 
     <ContentSection>
       <nuxt-content :document="page" />

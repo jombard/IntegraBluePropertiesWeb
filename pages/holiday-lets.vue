@@ -1,11 +1,6 @@
 <template>
   <div>
-    <PageHeader :title="page.title" class="text-blue" />
-
-    <PrimarySection
-      headline="Offering solutions for holiday home owners"
-      image-url="holidayhome.jpg"
-    />
+    <PrimarySection headline="Holiday Lets" />
 
     <ContentSection>
       <nuxt-content :document="page" />
