@@ -4,7 +4,7 @@
       class="container py-10 md:py-24 px-4 mx-auto flex flex-wrap md:flex-no-wrap justify-between"
       :class="imageUrl ? '' : 'items-center'"
     >
-      <div class="mb-5 md:mb-0">
+      <div class="mb-5 md:mb-0 pr-5">
         <div class="text-white">
           <h2 class="text-4xl md:text-6xl leading-tight font-bold">
             {{ headline }}
