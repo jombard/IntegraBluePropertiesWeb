@@ -64,6 +64,7 @@ p {
 }
 
 .page-wrapper {
+  margin-top: 68px;
   margin-bottom: 400px;
   background-color: white;
 }
@@ -136,7 +137,6 @@ a.link-underline {
   position: relative;
   white-space: nowrap;
   z-index: 10;
-  border: 1px solid #98c9e4;
   transition: 1s;
   padding: 1rem 2rem;
   display: inline-block;
@@ -201,6 +201,26 @@ a.link-underline {
     content: '\25A0';
     color: #006298;
     margin-right: 10px;
+  }
+}
+
+.page-enter-active {
+  transition: filter 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  ~ .footer {
+    transition: filter 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  }
+}
+.page-leave-active {
+  transition: filter 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  ~ .footer {
+    transition: filter 250ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
+}
+.page-enter,
+.page-leave-active {
+  filter: grayscale(1) opacity(0);
+  ~ .footer {
+    filter: grayscale(1) opacity(0);
   }
 }
 </style>
