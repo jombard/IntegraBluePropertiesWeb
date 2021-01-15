@@ -3,7 +3,7 @@
     <transition name="slide-side">
       <div v-if="isMenuOpen" class="sidenav">
         <AppLinks />
-        <TopPageLinks />
+        <TopPageLinks class="text-blue" />
       </div>
     </transition>
   </div>
