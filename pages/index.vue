@@ -16,15 +16,19 @@
     </div>
 
     <div class="container py-10 md:py-24 mx-auto relative px-4">
+      <h2 class="text-3xl md:text-5xl">Why work with IntegraBlue Properties</h2>
+      <p class="mb-10">
+        Working in property and providing solutions to property owners.
+      </p>
       <div class="flex flex-wrap">
         <div
           v-for="(w, i) in pages"
           :key="i"
-          class="md:w-1/3 mb-10 text-center md:px-5 mx-auto"
+          class="md:w-1/3 mb-10 text-center md:text-left md:pr-5 mx-auto"
         >
           <div class="flex-grow">
             <nuxt-link :to="w.path">
-              <div class="text-blue text-sm w-1/4 mx-auto">
+              <div class="text-blue text-sm w-1/4 mb-5 mx-auto md:mr-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -119,6 +123,7 @@
     </SignUpForm>
 
     <div class="container py-10 md:py-24 mx-auto px-4">
+      <h2 class="text-3xl md:text-5xl">Industry Affiliations</h2>
       <div class="flex flex-wrap items-center">
         <div class="w-1/2 md:w-1/4 px-5">
           <img
