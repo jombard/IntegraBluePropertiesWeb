@@ -40,6 +40,7 @@
 }
 
 .nuxt-link-exact-active {
-  border-bottom: 3px solid #006298;
+  color: #006298;
+  font-weight: bold;
 }
 </style>
