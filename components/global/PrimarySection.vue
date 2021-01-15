@@ -6,7 +6,9 @@
     >
       <div class="mb-5 md:mb-0">
         <div class="text-white">
-          <h2 class="text-3xl md:text-5xl leading-tight">{{ headline }}</h2>
+          <h2 class="text-4xl md:text-6xl leading-tight font-bold">
+            {{ headline }}
+          </h2>
           <p v-if="altText" class="text-2xl mb-0">
             {{ altText }}
           </p>
@@ -16,7 +18,7 @@
         <ImageResponsive
           :image-url="imageUrl"
           alt="Primary Section Image"
-          class="md:absolute bottom-0 right-0"
+          class="md:absolute top-0 right-0"
         />
       </div>
       <div v-else class="md:w-1/3 relative">
