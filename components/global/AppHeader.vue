@@ -18,3 +18,14 @@ export default {
   name: 'TheHeader',
 }
 </script>
+
+<style lang="scss">
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  top: 0;
+  box-shadow: 0 0 2rem -1rem #{transparentize(black, 0.8)};
+}
+</style>
