@@ -1,37 +1,25 @@
 <template>
-  <footer class="fixed bottom-0 w-full bg-gray-900 py-10 text-gray-500">
+  <footer class="fixed bottom-0 w-full bg-gray-900 pt-10 pb-5 text-gray-500">
     <div class="container mx-auto px-4">
-      <div class="flex flex-col md:flex-row">
-        <div class="mb-5 md:mb-0 md:w-1/3">
+      <div class="flex flex-col md:flex-row mb-5">
+        <div class="mb-5 md:mb-0 md:w-1/2">
           <strong>IntegraBlue Properties</strong><br />
-          Registered Company in England no: 12247772<br />
-          &copy; Copyright 2020. All Rights Reserved.
+          <TopPageLinks />
         </div>
-        <div class="mb-5 md:mb-0 md:w-1/3"></div>
-        <div class="mb-5 md:mb-0 md:w-1/3">
-          <strong>Registered with</strong><br />
-          <a
-            href="https://propertyinvestorsnetwork.co.uk/"
-            target="_blank"
-            rel="nofollow norefer"
-            >Property Investors Network</a
-          ><br />
-          <a href="https://ico.org.uk/" target="_blank" rel="nofollow norefer"
-            >ICO</a
-          ><br />
-          <a
-            href="https://www.nrla.org.uk/"
-            target="_blank"
-            rel="nofollow norefer"
-            >NRLA</a
-          ><br />
-          <a
-            href="https://www.tpos.co.uk/"
-            target="_blank"
-            rel="nofollow norefer"
-            >Property Ombudsman</a
-          >
+        <div class="mb-5 md:mb-0 md:w-1/4">
+          <nuxt-link to="/about">About</nuxt-link><br />
+          <nuxt-link to="/services">Services</nuxt-link><br />
+          <nuxt-link to="/contact">Contact</nuxt-link>
         </div>
+        <div class="mb-5 md:mb-0 md:w-1/4">
+          <nuxt-link to="/landlords">Landlords</nuxt-link><br />
+          <nuxt-link to="/holiday-lets">Holiday Lets</nuxt-link><br />
+          <nuxt-link to="/investors">Investors</nuxt-link>
+        </div>
+      </div>
+      <div class="text-base">
+        Registered Company in England no: 12247772 &copy; Copyright 2020. All
+        Rights Reserved.
       </div>
     </div>
   </footer>
