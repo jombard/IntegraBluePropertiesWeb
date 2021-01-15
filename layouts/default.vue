@@ -64,7 +64,7 @@ p {
 }
 
 .page-wrapper {
-  margin-bottom: 450px;
+  margin-bottom: 400px;
   background-color: white;
 }
 
@@ -172,7 +172,7 @@ a.link-underline {
   }
 
   .page-wrapper {
-    margin-bottom: 250px;
+    margin-bottom: 300px;
   }
 }
 
