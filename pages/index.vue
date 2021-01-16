@@ -32,10 +32,11 @@
     </div>
 
     <PrimarySection
-      headline="Are you looking to make money from your property by renting it out as a holiday let?"
-      ><nuxt-link class="text-white inline-flex btn" to="/holiday-lets"
-        >Find Out More</nuxt-link
-      >
+      alt-text="Are you looking to make money from your property by renting it out as a holiday let?"
+      ><nuxt-link class="text-white inline-flex items-center" to="/holiday-lets"
+        >Find Out More
+        <ArrowRightIcon />
+      </nuxt-link>
     </PrimarySection>
 
     <div v-if="false" class="container mx-auto py-10 md:py-24 px-4">
@@ -111,11 +112,13 @@
 
 <script>
 import QuoteIcon from 'vue-material-design-icons/FormatQuoteClose.vue'
+import ArrowRightIcon from 'vue-material-design-icons/ArrowRight.vue'
 
 export default {
   name: 'HomePage',
   components: {
     QuoteIcon,
+    ArrowRightIcon,
   },
   async asyncData({ $content }) {
     const pages = await $content('').fetch()
