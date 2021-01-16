@@ -5,6 +5,10 @@ svg: 'M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.
 order: 2
 ---
 
+### Staycations are on the rise
+
+Due to the pandemic, more and more people are desperate to get away from home. Due to travel restrictions, this gives property owners a perfect excuse to get their home earning money. Get a trusted serviced accommodation operator to take control and help you get the most out of your property as a holiday home. You don't know what you don't know!
+
 **Did you know you could make up to double your monthly mortgage payments in as little as two weeks?**
 
 Every year, you see them come and go. Some people will be counting down the days until the end of the holiday season and some people will be wondering how they can take advantage of the influx of visitors. The good news is that it could be easier than you think to make a small fortune by letting out your property to holidaymakers. That is - if you leave it to us!
