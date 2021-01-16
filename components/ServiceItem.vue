@@ -1,7 +1,7 @@
 <template>
   <div>
     <nuxt-link :to="page.path" class="text-blue">
-      <div class="text-sm w-1/4 mb-5">
+      <div class="text-sm w-1/4 mb-5 mx-auto md:mx-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

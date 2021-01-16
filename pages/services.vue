@@ -8,7 +8,11 @@
         Working in property and providing solutions to property owners.
       </p>
       <div class="flex flex-wrap">
-        <div v-for="(page, x) in pages" :key="x" class="md:w-1/3 pr-5">
+        <div
+          v-for="(page, x) in pages"
+          :key="x"
+          class="md:w-1/3 mb-10 text-center md:text-left md:pr-5 mx-auto"
+        >
           <ServiceItem :page="page" />
         </div>
       </div>
