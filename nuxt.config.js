@@ -21,7 +21,8 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content:
+          'Providing solutions to property owners. Helping Landlords convert troublesome portfolios into hassle free gold mines. Giving holiday home owners their time back. Helping investors get great returns on their capital.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
